@@ -6,4 +6,33 @@ li {
     border-radius: 25px;
 }
 
+
 /* Your code here */
+
+li[data-type="drinks"] {
+    background-color:azure;
+}
+li[data-type="bakery"] {
+    background-color:darkgoldenrod;
+}
+li[data-type="canned"] {
+    background-color:silver;
+}
+li[data-type="dairy"] {
+    background-color:linen;
+}
+li[data-type="frozen"] {
+    background-color:aqua;
+}
+li[data-type="meats"] {
+    background-color:lightcoral
+}
+li[data-type="produce"] {
+    background-color:chartreuse
+}
+li[data-type="toiletries"] {
+    background-color:ivory
+}
+li[data-type="other"] {
+    background-color:orange;
+}
